@@ -222,7 +222,7 @@ p {
 	margin-bottom: 10px;
     
 }
-#footer .social-icon {
+/* #footer .social-icon {
 	display: flex;
 	margin-bottom: 30px;
     text-align: center;
@@ -230,8 +230,7 @@ p {
 #footer .social-item {
 	height: 50px;
 	width: 50px;
-	margin: 0 5px;
-    
+	margin: 0 5px;   
 }
 #footer .social-item img {
 	filter: grayscale(1);
@@ -239,6 +238,61 @@ p {
 }
 #footer .social-item:hover img {
 	filter: grayscale(0);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Ranchers&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 20vh;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 0 20px;
+}
+.icon-box, .inner-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #c32aa3;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.ib-t{
+    background: #1da1f2;
+}
+.ib-g{
+    background: #333;
+}
+.ib-w{
+    background: #25d366;
+}
+.box:hover .icon-box{
+    transform: translateY(-30px);
+}
+.inner-box{
+    background: #fffeff;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: -1;
+    color: rgb(41, 41, 41);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082);
+}
+.inner-box p{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
 }
 #footer p {
 	color: white;
