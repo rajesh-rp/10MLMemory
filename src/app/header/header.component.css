@@ -4,27 +4,14 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-.navbar{
-    z-index: 2;
-    padding: 0 3rem 0 7.8rem;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-.section-title {
-	font-size: 2.5rem;
-	font-weight: 300;
-	color: black;
-	margin-bottom: 10px;
-	letter-spacing: .2rem;
-	text-align: center;
-}
-.section-title span {
-	color: crimson;
-}
 .navbar-brand{
-    color: #fff;
+	font-size: 2.5rem;
+	padding-left: 10%;
 }
-.nav-link{
-    font-size: 1.7rem;
+
+.nav-item{
+	font-size: 1.5rem;
+}
+.collapse{
+	padding-right: 10%;	
 }
