@@ -87,6 +87,7 @@ p {
 
 /* Hero Section */
 #hero {
+	padding-top: 2rem;
 	background-image: url(../images/hero-bg.jpg);
 	background-size: cover;
 	background-position: top center;
@@ -204,7 +205,7 @@ p {
 
 /* Footer */
 #footer {
-	background-image: linear-gradient(60deg, #fea82f 0%, #485563 100%);
+     background-image:linear-gradient(60deg, #9c3d54 20%, #1b2021 80%);
     text-align: center;
 }
 #footer .footer {

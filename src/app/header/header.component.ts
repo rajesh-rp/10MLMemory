@@ -6,13 +6,17 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  isScrolled=false;
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  changeStyle(){
+    this.isScrolled=!this.isScrolled;
+  }
   
-  isScrolled=false;
+  
   @HostListener("document:scroll")
   scrollFunction(){
     if(document.body.scrollTop>70||document.documentElement.scrollTop>70){
