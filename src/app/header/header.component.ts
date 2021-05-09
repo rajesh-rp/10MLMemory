@@ -7,13 +7,14 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   isScrolled=false;
+  isClicked=false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
   changeStyle(){
-    this.isScrolled=!this.isScrolled;
+    this.isClicked=!this.isClicked;
   }
   
   

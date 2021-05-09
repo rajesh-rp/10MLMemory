@@ -86,6 +86,9 @@ p {
 }
 
 /* Hero Section */
+.profile{
+	height: 330px;
+}
 #hero {
 	padding-top: 2rem;
 	background-image: url(../images/hero-bg.jpg);
@@ -114,7 +117,6 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 4rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal .5s ease forwards;
@@ -347,10 +349,14 @@ p {
 
 	/* Hero */
 	#hero h1 {
-		font-size: 3.5rem;
+		margin:0;
+		padding: 0;
+		font-size: 5vw;
 	}
 	#hero h2 {
-		font-size: 2rem;
+		margin:0;
+		padding: 0;
+		font-size: 3vw;
 		color: aliceblue;
 	}
 	/* End Hero */
