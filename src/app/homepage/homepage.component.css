@@ -91,7 +91,7 @@ p {
 }
 #hero {
 	padding-top: 2rem;
-	background-image: url(../images/hero-bg.jpg);
+	background-image: url(../../assets/images/hero-bg.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -495,7 +495,7 @@ p {
     left: 99.5%;
     height:100%;
     width:100%;
-    background:linear-gradient(to bottom right , #08686c, #ce1f6a);
+    background:linear-gradient(to bottom right , #9c3d54, #1b2021);
     transition:0.5s;
 }
 .testimonial .card:hover  .layer{
