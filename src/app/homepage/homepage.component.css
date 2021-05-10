@@ -580,6 +580,11 @@ p {
   /* testimonial sesction */
   .test-desc{
 	  color: #fff;
+	  width: 80%;
+	  font-size:medium;
+	  line-height: normal;
+	  margin: auto;
+	  margin-top: 1rem;
   }
   .carousel{
 	  padding-left: 1rem;
@@ -589,9 +594,21 @@ p {
 	  background-image: linear-gradient(60deg, #9c3d54 20%, #1b2021 80%) ;
   }
   .test-profile{
+	  margin-top: 1rem;
 	  height: 100px;
 	  width: 100px;
 	  border-radius: 100%;
+	  align-self: center;
+  }
+  .item{
+	  margin-bottom: 2rem;
+	  text-align: center;
+  }
+  .name{
+	margin-top: 1rem;
+  }
+  .name,.profession{
+	  color: #fff;
   }
    
 
