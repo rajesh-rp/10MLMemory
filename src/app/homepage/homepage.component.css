@@ -199,6 +199,7 @@ p {
 /* contact Section */
 
 #contact .contact {
+    padding-top: 0;
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
@@ -702,4 +703,8 @@ p {
 
 body {
     background-color: #f8ede3;
+}
+
+.contact {
+    padding-top: 0;
 }
