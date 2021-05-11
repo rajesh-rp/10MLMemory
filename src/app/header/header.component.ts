@@ -1,5 +1,4 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -9,7 +8,6 @@ export class HeaderComponent implements OnInit {
   isScrolled=false;
   isClicked=false;
   constructor() { }
-
   ngOnInit(): void {
   }
 
