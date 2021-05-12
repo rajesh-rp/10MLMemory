@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   
   @HostListener("document:scroll")
   scrollFunction(){
-    if(document.body.scrollTop>70||document.documentElement.scrollTop>70){
+    if(document.body.scrollTop>0||document.documentElement.scrollTop>0){
       this.isScrolled=true;
     }
     else{

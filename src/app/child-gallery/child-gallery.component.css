@@ -1,30 +1,38 @@
 * {
-   
     box-sizing: border-box;
 }
-.navigationbar{
-    background-color: black;
-}
-/* .section-name{
-    text-align: center;
-    color: #114e60;
-    padding-top: 100px;
-} */
-#gallery
-{
-    padding: 100px 10px 10px 10px;
-}
+
 body {
     margin: 5px;
     position: relative;
 }
 
+
+/* .section-name{
+    text-align: center;
+    color: #114e60;
+    padding-top: 100px;
+} */
+
 #gallery {
+    padding: 50px
+}
+
+#gallery {
+    z-index: -1;
     display: grid;
     height: calc(100vh - 10px);
     grid-template: repeat(6, 1fr)/repeat(6, 1fr);
     grid-gap: 0.5em;
 }
+
+.navigationbar {
+    height: 90px;
+    background-image: linear-gradient(60deg, #9c3d54 20%, #1b2021 80%);
+    z-index: 1;
+}
+
+
 /* 
 @media (max-width: 800px) {
     #gallery {
