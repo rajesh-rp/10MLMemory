@@ -7,10 +7,17 @@ body {
     position: relative;
 }
 
+#gallery
+{
+    padding: 100px 10px 10px 10px;
+}
 .header {
     background-image: linear-gradient(60deg, #9c3d54 20%, #1b2021 80%);
 }
-
+#gallery
+{
+    padding: 100px 10px 10px 10px;
+}
 #gallery {
     display: grid;
     height: calc(100vh - 10px);
