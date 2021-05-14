@@ -14,6 +14,7 @@ export class ChildGalleryComponent implements OnInit {
     ) { }
 
   ngOnInit(): void {
+    window.scroll(0,0);
   }
   showPhoto(event:Event){
     //  let elementId: any = (event.target as Element).getAttribute("href");

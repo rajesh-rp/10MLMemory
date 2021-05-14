@@ -1,6 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
-   
     box-sizing: border-box;
 }
 
@@ -38,9 +37,10 @@ p {
 }
 
 .section-title {
+    padding-top: 2rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
@@ -242,6 +242,12 @@ p {
     font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
+}
+
+.next-button {
+    padding: 0;
+    height: 100%;
+    max-height: 300px;
 }
 
 
@@ -464,7 +470,7 @@ p {
     /* contact  */
     #contact .contact {
         flex-direction: column;
-        padding: 100px 0;
+        padding: 2.5rem 0;
         align-items: center;
         justify-content: center;
         min-width: 20vh;
@@ -669,21 +675,17 @@ p {
     margin-top: 1rem;
 }
 
-.carousel {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 .base {
     background-image: linear-gradient(60deg, #9c3d54 20%, #1b2021 80%);
+    height: 300px;
 }
 
 .test-profile {
     margin-top: 1rem;
+    align-self: center;
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    align-self: center;
 }
 
 .item {
@@ -704,6 +706,6 @@ body {
     background-color: #f8ede3;
 }
 
-.contact {
-    padding-top: 0;
+.test-heading {
+    margin-top: 2rem;
 }

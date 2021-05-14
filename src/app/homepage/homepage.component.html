@@ -3,7 +3,6 @@
     <app-header></app-header>
     <!-- End Header -->
 
-
     <!-- Hero Section  -->
     <section id="hero">
         <div class="hero container" (window:resize)="onResize($event)">
@@ -32,15 +31,13 @@
     <section id="testimonial">
 
         <section id="contact">
-
-            <div *ngIf="show ; else carousal;">
+            <div class="contact container-fluid">
                 <div class="testimonial-title">
 
                     <h1 class="section-title">T<span>estimonials</span></h1>
 
                 </div>
-                <div class="contact container-fluid">
-
+                <div *ngIf="show ; else carousal;">
                     <div class="testimonial">
                         <div class="card">
                             <div class="layer"></div>
@@ -99,18 +96,13 @@
 
             <!-- carousel section -->
             <ng-template #carousal>
-                <div>
-
-                    <h1 class="section-title">T<span>estimonials</span></h1>
-
-                </div>
-                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide test-carousel" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner base">
+                    <div class="carousel-inner base item">
                         <div class="carousel-item active item">
                             <p class="test-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iusto ea tenetur quas facere minima obcaecati mollitia sed ipsum quod, eius repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.
                             </p>
@@ -148,8 +140,6 @@
         </section>
     </section>
 
-
-    <!-- Contact Section -->
     <section id="image_gallery">
         <section id="contact">
             <div class="contact container-fluid">
@@ -201,6 +191,8 @@
             </div>
         </section>
     </section>
+
+    <!-- Contact Section -->
 
     <!-- End Contact Section -->
     <section id="footer">
